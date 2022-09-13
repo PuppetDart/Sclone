@@ -1,15 +1,15 @@
 import "./App.css"
-import Navbar from "./Components/Navbar";
-import Divider from "./Components/Divider";
-import LoginLinks from "./Components/LoginLinks";
+import { Routes, Route } from "react-router-dom";
+import SignupPage from "./SignupPage/SignupPage";
+import LoginPage from "./LoginPage/LoginPage";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <LoginLinks />
-      <Divider />
-      {/* <LoginForm />
-      <SignUpBttn /> */}
+      <Routes>
+        <Route path={process.env.PUBLIC_URL + "/"} element={<p>Nothing here mate</p>} />
+        <Route path={process.env.PUBLIC_URL + "login"} element={<LoginPage />} />
+        <Route path={process.env.PUBLIC_URL + "signup"} element={<SignupPage />} />
+      </Routes>
     </div>
   );
 }

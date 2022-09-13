@@ -4,8 +4,8 @@
 }
 body{
     margin:0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
 .App{
     display: flex;
@@ -20,22 +20,76 @@ body{
     padding: 1.4em;
     border-bottom: rgba(128, 128, 128, 0.259) 1px solid;
 }
+.LoginBody{
+    width: 450px;
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+.LoginForm{
+    width: 100%;
+}
 .LoginLinks{
+    width:100%;
     display: flex;
     flex-flow: column;
     margin: 42px 0 0 0;
     justify-content: center;
     align-items: center;
 }
-.contWithBttn{
+.SignupPage{
+    max-width: 500px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 40px 0;
+}
+.SignupForm{
+    width: 85%;
+    display: flex;
+    flex-flow: column;
+}
+.SignupLinks{
+    width: 65%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center
+}
+.SignupLinks p{
+    font-size: 28px;
+    font-weight: 650;
+}
+.SignupLinks >svg{
+    height: 27px;
+}
+.TextInput input{
+    width: 100%;
+    background: transparent;
+    border: 1.8px solid rgb(150, 150, 150);
+    padding: 15px 13px;
+    border-radius: 4px;
+    outline: none;
+}
+.TextInput input:hover{
+    border: 1.8px solid rgb(99, 99, 99);
+}
+.TextInput input:focus{
+    padding: 14.3px 12.3px;
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.ForeignBttn{
     cursor: pointer;
+    width: 100%;
     padding:13px;
-    width: 400px;
     margin: 5px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
     font-size: 14px;
 }
 p{
@@ -45,6 +99,71 @@ p{
 .divider{
     margin: 15px;
     height: 2px;
-    width: 400px;
+    width: 100%;
     background: rgb(225, 225, 225);
+}
+
+.LoginCommand{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.genderSelection{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.genderRadios{
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+.genderSelection div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Cb{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 13.5px;
+}
+.Cb label{
+    padding: 2.5px 0;
+}
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 25px 0;
+}
+fieldset legend{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 12px;
+}
+.InputGrp legend{
+    margin-bottom: -5px;
+}
+.SignupForm .Cb{
+    margin: 15px 0;
+}
+
+.signupCommand{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px
+}
+.signupCommand p{
+    font-weight: 400;
+    text-align: center;
 }
