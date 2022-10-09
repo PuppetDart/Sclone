@@ -1,4 +1,4 @@
-import { ReactComponent as Spotify } from "../icons/spotify.svg";
+import { ReactComponent as Spotify } from "../../icons/spotify.svg";
 export default function Navbar() {
     return (
         <div className="Navbar">

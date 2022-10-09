@@ -1,4 +1,4 @@
-import ForeignBttn from "../globalComp/ForeignBttn";
+import ForeignBttn from "../../globalComp/ForeignBttn";
 export default function LoginLinks(){
     return(
         <div className="LoginLinks">

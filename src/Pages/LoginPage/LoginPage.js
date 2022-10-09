@@ -1,8 +1,8 @@
 import Navbar from "./Navbar";
-import Divider from "../globalComp/Divider";
+import Divider from "../../globalComp/Divider";
 import LoginLinks from "./LoginLinks";
 import LoginForm from "./LoginForm";
-import ForeignBttn from "../globalComp/ForeignBttn";
+import ForeignBttn from "../../globalComp/ForeignBttn";
 export default function LoginPage() {
     return (
         <>

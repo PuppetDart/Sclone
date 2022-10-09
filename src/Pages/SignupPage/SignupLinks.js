@@ -1,5 +1,5 @@
-import ForeignBttn from "../globalComp/ForeignBttn";
-import { ReactComponent as Spotify } from "../icons/spotify.svg";
+import ForeignBttn from "../../globalComp/ForeignBttn";
+import { ReactComponent as Spotify } from "../../icons/spotify.svg";
 export default function SignupLinks(){
     return(
         <div className="SignupLinks">

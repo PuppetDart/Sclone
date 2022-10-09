@@ -1,6 +1,6 @@
-import TextInput from "../globalComp/TextInput";
-import Cb from "../globalComp/Cb";
-import ForeignBttn from "../globalComp/ForeignBttn";
+import TextInput from "../../globalComp/TextInput";
+import Cb from "../../globalComp/Cb";
+import ForeignBttn from "../../globalComp/ForeignBttn";
 export default function LoginForm(props) {
     return (
         <div className="LoginForm">

@@ -1,7 +1,7 @@
-import TextInput from "../globalComp/TextInput";
-import RadioBttn from "../globalComp/RadioBttn";
-import ForeignBttn from "../globalComp/ForeignBttn";
-import Cb from "../globalComp/Cb"
+import TextInput from "../../globalComp/TextInput";
+import RadioBttn from "../../globalComp/RadioBttn";
+import ForeignBttn from "../../globalComp/ForeignBttn";
+import Cb from "../../globalComp/Cb"
 export default function SignupForm() {
     return (
         <form className="SignupForm">
